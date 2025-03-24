@@ -5,7 +5,7 @@
         class="bg-white flex 2xl:flex-col p-4 rounded-lg shadow-md w-full max-w-2xl max-sm:mx-5"
       >
         <div
-          class="flex items-start relative max-sm:relative max-sm:pb-10 max-sm:px-2"
+          class="flex items-start relative max-sm:relative max-sm:pb-10 max-sm:px-2 lg:px-1"
         >
           <div
             class="bg-[#eaecf1] max-sm:absolute max-sm:bottom-0 max-sm:items-end flex 2xl:flex-col items-center rounded-lg mt-2 2xl:p-3 p-1 mr-4"
@@ -73,7 +73,7 @@
             class="border rounded-lg px-4 w-115 h-20 max-sm:w-56"
           ></textarea>
           <button
-            class="bg-blue-500 text-white mx-5 px-4 py-2 rounded absolute right-1 max-sm:right-0 "
+            class="bg-blue-500 text-white mx-5 px-4 py-2 rounded absolute right-1 max-sm:right-0"
             @click="$emit('comentReply', data, data.id)"
           >
             Reply
